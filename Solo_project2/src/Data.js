@@ -11,7 +11,9 @@ const Data = [
         sold:6,
         country:"USA",
         quote:"Life lessons from Katie Zaferes",
-        buy:"From $136"
+        buy:"From $136",
+        openSpot:0,
+        location:'Online'
     },
     {
         image:wedding,
@@ -20,7 +22,9 @@ const Data = [
         sold:30,
         country:"USA",
         quote:"Learn wedding photography",
-        buy:"From $125"
+        buy:"From $125",
+        openSpot:3,
+        location:'Online'
     },
     {
         image:bike,
@@ -29,7 +33,9 @@ const Data = [
         sold:2,
         country:"USA",
         quote:"Group Mountain Biking",
-        buy:"From $50"
+        buy:"From $50",
+        openSpot:22,
+        location:'Norway'
     }
 ]
 

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@200;400;600&display=swap');
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .App{
     width: 50%;
@@ -15,41 +17,25 @@
 }
 
 /* Images */
-
-.images_container{
+.bigImage{
     width: 75%;
-    margin: 0 auto;
-    display: grid;
-    gap: auto;
-    grid-template-columns: repeat(5,auto);
 }
-.images_item2,.images_item1{
-    margin: auto 0;
+.imgConti{
+    margin: 2rem 0;
+    text-align: center;
 }
-.images_item1{
-    margin: auto 2rem auto 0;
-}
-.images_item3 > .third_1{
-    padding-top: 4rem;
-}
-.images_item4{
-    padding-top: 2rem;
-}
-.images_item5{
-    padding-top: 3rem;
-}
-
 /* INFO */
 
 .head{
     font-family: "poppins";
     font-weight: 600;
+    margin: 1rem 0;
 }
 .ptext{
     width: 18rem;
     font-weight: 300;
     line-height: 1.2;
-    margin-top: none;
+    margin-bottom: 1rem;
 }
 .texts{
     line-height: .3;
@@ -83,5 +69,28 @@
     gap: 20px;
     overflow-x: auto;
     margin-bottom: 4rem;
+    position: relative;
 }
+
+.badge{
+    position: absolute;
+    padding: .2rem .3rem;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-weight: bold;
+    display: none;
+}
+.footer_item:hover > .badge{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
 /* For now, this is not adaptive enough*/
