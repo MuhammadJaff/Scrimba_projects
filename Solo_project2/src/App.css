@@ -23,11 +23,11 @@
     gap: auto;
     grid-template-columns: repeat(5,auto);
 }
-.images_item2{
+.images_item2,.images_item1{
     margin: auto 0;
 }
 .images_item1{
-    margin: auto 0;
+    margin: auto 2rem auto 0;
 }
 .images_item3 > .third_1{
     padding-top: 4rem;
@@ -78,16 +78,10 @@
 
 
 .container_foot{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
     margin-bottom: 4rem;
 }
-
-
-/* media  */
-
-/* @media screen and (max-width:1170px){
-    .App{
-        width: 55% !important;
-    }
-} */
+/* For now, this is not adaptive enough*/
