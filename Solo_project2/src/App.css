@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@200;400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+.App{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logo_border{
+    padding: 1.3rem 1.8rem;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+/* Images */
+
+.images_container{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    gap: auto;
+    grid-template-columns: repeat(5,auto);
+}
+.images_item2{
+    margin: auto 0;
+}
+.images_item1{
+    margin: auto 0;
+}
+.images_item3 > .third_1{
+    padding-top: 4rem;
+}
+.images_item4{
+    padding-top: 2rem;
+}
+.images_item5{
+    padding-top: 3rem;
+}
+
+/* INFO */
+
+.head{
+    font-family: "poppins";
+    font-weight: 600;
+}
+.ptext{
+    width: 18rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: none;
+}
+.texts{
+    line-height: .3;
+    margin-top: 2rem;
+}
+
+/* Footer  */
+
+.star{
+    width: .8rem;
+}
+.text_img{
+    font-size: .8rem;
+    margin: 0;
+}
+.qoute{
+    font-size: .7rem;
+    font-weight: 400;
+}
+.price{
+    font-size: .8rem;
+}
+.rating_sold{
+    font-weight: 300;
+}
+
+
+.container_foot{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 4rem;
+}
+
+
+/* media  */
+
+/* @media screen and (max-width:1170px){
+    .App{
+        width: 55% !important;
+    }
+} */
