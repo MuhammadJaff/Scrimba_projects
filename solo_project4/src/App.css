@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Karla:wght@300;400;700&family=Poppins:wght@200;400;600&display=swap");
+.header_line {
+  width: calc(60% - 4rem);
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, right top, color-stop(1.18%, #672280), to(#A626D3));
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.header_line .logo_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: .5rem;
+}
+
+.header_line .logo_part .troll_img {
+  width: 2rem;
+}
+
+.header_line .logo_part .meme_generator {
+  color: white;
+  font-family: "Karla";
+  font-weight: 700;
+}
+
+.header_line h5 {
+  color: white;
+  font-weight: 500;
+}
+/*# sourceMappingURL=App.css.map */
