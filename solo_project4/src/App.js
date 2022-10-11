@@ -1,10 +1,12 @@
 import './App.scss';
 import Header from './Header';
+import Input from './Input';
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Input/>
     </div>
   );
 }
